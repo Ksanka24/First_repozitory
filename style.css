@@ -26,14 +26,14 @@ header nav ul li a {
 }
 .gallery {
     display: flex;
-    gap: 24px;
+    gap: 36px;
     justify-content: center;
-    margin-top: 24px;
+    margin-top: 36px;
 }
 .gallery img {
-    width: 150px;
+    width: 200px;
     height: auto;
-    border-radius: 80%;
+    border-radius: 12%;
 }
 footer {
     background-color: whitesmoke;
