@@ -1,0 +1,43 @@
+body {
+    font-family: "Monospace", "Verdana", "Geneva", "Gothic", "Italic", "Serif Italic", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec;
+}
+header {
+    background-color: whitesmoke;
+    color: black;
+    padding: 24px;
+    text-align: center;
+}
+header nav ul {
+padding: 0;
+    margin: 0;
+    display: flex;
+justify-content: center;
+gap: 42px;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    color: #249999;
+    text-decoration: none;
+}
+.gallery {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 24px;
+}
+.gallery img {
+    width: 150px;
+    height: auto;
+    border-radius: 80%;
+}
+footer {
+    background-color: whitesmoke;
+    color: #249999;
+    padding: 24px;
+    text-align: center;
+}
